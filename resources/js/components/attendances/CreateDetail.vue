@@ -19,7 +19,9 @@
         <option v-for="(val, index) in break_times" :value="val">{{ index }}</option>
       </select>
     </td>
-    <td><span class="work-time">{{ workTime }}</span>{{ workTime ? '時間' : '' }}</td>
+    <td>
+      <span class="work-time">{{ workTime }}</span>{{ workTime ? '時間' : '' }}
+    </td>
     <td>
       <input type="text" name="memos[]" class="form-control" form="shift-form">
     </td>
@@ -35,7 +37,7 @@ export default {
   mixins: [Data ,Link],
   data(){
     return {
-      'item' : 2,
+      'item' : 0,
       'start_at' : null,
       'end_at' : null,
       'break_time' : ''

@@ -47,8 +47,8 @@
             </form>
             <div class="text-right">
               <input type="hidden" name="date" :value="date" form="form">
-              <a :href="earlyTimeShowLink(authId(), date)" class="btn btn-light mr-2">Back</a>
-              <button type="button" class="btn btn-gradient-success" form="form" @click="submitInit(), submit()">Update</button>
+              <a :href="earlyTimeShowLink(authId(), date)" class="btn btn-light mr-2">戻る</a>
+              <button type="button" class="btn btn-gradient-success" form="form" @click="submitInit(), submit()">更新</button>
             </div>
           </div>
         </div>

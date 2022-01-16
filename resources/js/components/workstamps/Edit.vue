@@ -54,8 +54,8 @@
             </form>
             <div class="text-right">
               <input type="hidden" name="date" :value="date" form="form">
-              <a :href="workStampShowLink(authId(), date)" class="btn btn-gradient-light mr-2">Back</a>
-              <button type="button" class="btn btn-gradient-success" form="form" @click="submit">Update</button>
+              <a :href="workStampShowLink(authId(), date)" class="btn btn-gradient-light mr-2">戻る</a>
+              <button type="button" class="btn btn-gradient-success" form="form" @click="submit">更新</button>
             </div>
           </div>
         </div>

@@ -2075,6 +2075,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -2082,7 +2084,7 @@ __webpack_require__.r(__webpack_exports__);
   mixins: [_common_Data_vue__WEBPACK_IMPORTED_MODULE_0__["default"], _common_Link_vue__WEBPACK_IMPORTED_MODULE_1__["default"]],
   data: function data() {
     return {
-      'item': 2,
+      'item': 0,
       'start_at': null,
       'end_at': null,
       'break_time': ''
@@ -42271,7 +42273,7 @@ var render = function () {
     _vm._v(" "),
     _c("td", [
       _c("span", { staticClass: "work-time" }, [_vm._v(_vm._s(_vm.workTime))]),
-      _vm._v(_vm._s(_vm.workTime ? "時間" : "")),
+      _vm._v(_vm._s(_vm.workTime ? "時間" : "") + "\n  "),
     ]),
     _vm._v(" "),
     _vm._m(0),
@@ -43094,7 +43096,7 @@ var render = function () {
                     href: _vm.earlyTimeShowLink(_vm.authId(), _vm.date),
                   },
                 },
-                [_vm._v("Back")]
+                [_vm._v("戻る")]
               ),
               _vm._v(" "),
               _c(
@@ -43108,7 +43110,7 @@ var render = function () {
                     },
                   },
                 },
-                [_vm._v("Update")]
+                [_vm._v("更新")]
               ),
             ]),
           ]),
@@ -44711,7 +44713,7 @@ var render = function () {
                   staticClass: "btn btn-light mr-2",
                   attrs: { href: _vm.overTimeShowLink(_vm.authId(), _vm.date) },
                 },
-                [_vm._v("Back")]
+                [_vm._v("戻る")]
               ),
               _vm._v(" "),
               _c(
@@ -44725,7 +44727,7 @@ var render = function () {
                     },
                   },
                 },
-                [_vm._v("Update")]
+                [_vm._v("更新")]
               ),
             ]),
           ]),
@@ -45923,7 +45925,7 @@ var render = function () {
                   staticClass: "btn btn-light mr-2",
                   attrs: { href: _vm.shiftShowLink(_vm.authId(), _vm.date) },
                 },
-                [_vm._v("Back")]
+                [_vm._v("戻る")]
               ),
               _vm._v(" "),
               _c(
@@ -45937,7 +45939,7 @@ var render = function () {
                     },
                   },
                 },
-                [_vm._v("Update")]
+                [_vm._v("更新")]
               ),
             ]),
           ]),
@@ -47693,7 +47695,7 @@ var render = function () {
                     href: _vm.workStampShowLink(_vm.authId(), _vm.date),
                   },
                 },
-                [_vm._v("Back")]
+                [_vm._v("戻る")]
               ),
               _vm._v(" "),
               _c(
@@ -47703,7 +47705,7 @@ var render = function () {
                   attrs: { type: "button", form: "form" },
                   on: { click: _vm.submit },
                 },
-                [_vm._v("Update")]
+                [_vm._v("更新")]
               ),
             ]),
           ]),
@@ -61059,7 +61061,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_workstamps_Index_vue__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/workstamps/Index.vue */ "./resources/js/components/workstamps/Index.vue");
 /* harmony import */ var _components_workstamps_Create_vue__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/workstamps/Create.vue */ "./resources/js/components/workstamps/Create.vue");
 /* harmony import */ var _components_workstamps_Edit_vue__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/workstamps/Edit.vue */ "./resources/js/components/workstamps/Edit.vue");
-/* harmony import */ var _components_earlytimes_Index_vue__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/earlytimes/Index.vue */ "./resources/js/components/earlytimes/Index.vue");
+/* harmony import */ var _components_earlytimes_Index_vue__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/earlytimes/Index.vue */ "./resources/js/components/earlytimes/Index.vue");
 /* harmony import */ var _components_earlytimes_Show_vue__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/earlytimes/Show.vue */ "./resources/js/components/earlytimes/Show.vue");
 /* harmony import */ var _components_earlytimes_Create_vue__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/earlytimes/Create.vue */ "./resources/js/components/earlytimes/Create.vue");
 /* harmony import */ var _components_earlytimes_Edit_vue__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/earlytimes/Edit.vue */ "./resources/js/components/earlytimes/Edit.vue");
@@ -61136,7 +61138,7 @@ Vue.component('work-stamp-edit', _components_workstamps_Edit_vue__WEBPACK_IMPORT
 EarlyTime
 **********/
 
-Vue.component('early-time-index', _components_earlytimes_Index_vue__WEBPACK_IMPORTED_MODULE_25__["default"]);
+Vue.component('early-time-index', _components_earlytimes_Index_vue__WEBPACK_IMPORTED_MODULE_17__["default"]);
 Vue.component('early-time-show', _components_earlytimes_Show_vue__WEBPACK_IMPORTED_MODULE_18__["default"]);
 Vue.component('early-time-create', _components_earlytimes_Create_vue__WEBPACK_IMPORTED_MODULE_19__["default"]);
 Vue.component('early-time-edit', _components_earlytimes_Edit_vue__WEBPACK_IMPORTED_MODULE_20__["default"]);
